@@ -96,11 +96,13 @@ img {
 input {
     color: #777777;
     padding-left: 5px;
+    width: 895px;
 }
 
 textarea {
     color: #777777;
     padding-left: 5px;
+    width: 895px;
 }
 
 .text-block {
@@ -130,7 +132,7 @@ textarea {
     background-color: #ffffff;
     width: 960px;
     margin: auto;
-    height: 450px;
+    height: 480px;
     border: 1px solid #dddddd;
     overflow: visible;
     text-align: center;
@@ -191,4 +193,78 @@ textarea {
 #profile:hover {
     cursor: pointer;
     opacity: 0.7;
+}
+
+@media screen and (max-width: 980px) {
+    .main_content {
+        background-color: green;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main_content {
+        background-color: yellow;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .main_content {
+        width: 500px;
+        height: 740px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+    img {
+        width: 88%;
+        height: 300px;
+    }
+
+    p {
+        width: 88%;
+        padding-left: 30px;
+    }
+
+    h1 {
+        width: 640px;
+        display: block;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    nav {
+        position: absolute;
+        float: left;
+        top: 57px;
+        background-color: white;
+        padding: 8px;
+        border-bottom: 2px solid #cccccc;
+        width: 640px;
+        text-align: center;
+    }
+
+    nav a {
+        color: #777777;
+        border: none;
+    }
+
+    #port-main {
+        height: 1300px;
+    }
+    .portfolio_img {
+        width: 440px;
+        height: 200px;
+    }
+
+    .text-block {
+        width: 440px;
+        margin-top: 147px;
+    }
+
+    input {
+        width: 440px;
+    }
+
+    textarea {
+        width: 440px;
+    }
 }
