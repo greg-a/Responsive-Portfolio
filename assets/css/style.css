@@ -11,9 +11,10 @@ h1 {
     background-color: #4aaaa5;
     color: #ffffff;
     padding: 10px;
-    margin-left: 12%;
     display: inline;
-    margin-left: 0;
+    margin-top: 0;
+    height: 31px;
+    padding-top: 5px;
 }
 
 h2 {
@@ -52,15 +53,14 @@ p {
 }
 
 nav {
-    display: block;
-    float: right;
+    display: relative;
     padding-right: 0;
     padding-top: 12px;
 }
 
 nav a {
     text-decoration: none;
-    color: #cccccc;  
+    color: #777777;  
     border-right: 0.1px solid #cccccc; 
     padding-right: 10px; 
 }
@@ -96,13 +96,13 @@ img {
 input {
     color: #777777;
     padding-left: 5px;
-    width: 895px;
+    width: 575px;
 }
 
 textarea {
     color: #777777;
     padding-left: 5px;
-    width: 895px;
+    width: 575px;
 }
 
 .text-block {
@@ -112,13 +112,13 @@ textarea {
     background-color: #4aaaa5;
     color: #ffffff;
     height: 30px;
-    width: 275px;
+    width: 265px;
     padding-top: 10px;
     margin: 105px 30px 15px 30px;
 }
 
 .portfolio_img {
-    width: 275px;
+    width: 265px;
     height: 150px;
     margin: 5px;
     margin-left: 0;
@@ -130,12 +130,13 @@ textarea {
 
 .main_content {
     background-color: #ffffff;
-    width: 960px;
-    margin: auto;
+    width: 640px;
+    margin-left: 150px;
     height: 480px;
     border: 1px solid #dddddd;
     overflow: visible;
     text-align: center;
+    margin-bottom: 150px;
 }
 
 #submit:hover {
@@ -164,10 +165,10 @@ textarea {
 }
 
 .bio {
-    float: left;
     margin: 0px;
-    text-align: left;
     line-height: 175%;
+    padding: 0 15px;
+    text-align: left;
 }
 
 .thumbnail:hover {
@@ -183,11 +184,14 @@ textarea {
 
 #profile {
     margin-top: 5px;
+    padding-bottom: 0;
 }
 
 #heading {
-    width: 960px;
-    margin: auto;
+    width: 80%;
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #profile:hover {
@@ -196,23 +200,18 @@ textarea {
 }
 
 @media screen and (max-width: 980px) {
-    .main_content {
-        background-color: green;
-    }
-}
+
 
 @media screen and (max-width: 768px) {
-    .main_content {
-        background-color: yellow;
-    }
-}
+
 
 @media screen and (max-width: 640px) {
     .main_content {
-        width: 500px;
-        height: 740px;
+        width: 480px;
+        height: 860px;
         margin-top: 50px;
         margin-bottom: 100px;
+        margin-left: 55px;
     }
     img {
         width: 88%;
@@ -226,9 +225,14 @@ textarea {
 
     h1 {
         width: 640px;
+        height: 40px;
         display: block;
         text-align: center;
         margin-top: 0;
+    }
+
+    header {
+        height: 54px;
     }
 
     nav {
@@ -238,7 +242,7 @@ textarea {
         background-color: white;
         padding: 8px;
         border-bottom: 2px solid #cccccc;
-        width: 640px;
+        width: 100%;
         text-align: center;
     }
 
@@ -251,20 +255,33 @@ textarea {
         height: 1300px;
     }
     .portfolio_img {
-        width: 440px;
+        width: 420px;
         height: 200px;
     }
 
     .text-block {
-        width: 440px;
+        width: 420px;
         margin-top: 147px;
     }
 
     input {
-        width: 440px;
+        width: 415px;
     }
 
     textarea {
-        width: 440px;
+        width: 415px;
+    }
+
+    #heading {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #contact-main {
+        height: 450px;
+    }
+
+    .bio {
+        margin-left: 20px;
     }
 }
