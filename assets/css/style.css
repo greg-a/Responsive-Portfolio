@@ -124,6 +124,11 @@ textarea {
     margin-left: 0;
 }
 
+.repo {
+    font-size: 0.7em;
+    position: relative;
+    bottom: 62px;
+}
 .thumbnail {
     float: left;
 }
