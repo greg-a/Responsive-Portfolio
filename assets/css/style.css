@@ -117,7 +117,7 @@ textarea {
     margin: 105px 30px 15px 30px;
 }
 
-.portfolio_img {
+.portfolio-img {
     width: 265px;
     height: 150px;
     margin: 5px;
@@ -133,7 +133,7 @@ textarea {
     float: left;
 }
 
-.main_content {
+.main-content {
     background-color: #ffffff;
     width: 640px;
     margin-left: 150px;
@@ -150,7 +150,7 @@ textarea {
 }
 
 #port-main {
-    height: 700px;
+    height: 900px;
 }
 
 #footer {
@@ -259,7 +259,7 @@ textarea {
     #port-main {
         height: 1300px;
     }
-    .portfolio_img {
+    .portfolio-img {
         width: 420px;
         height: 200px;
     }
